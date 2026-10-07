@@ -1,4 +1,3 @@
-
 # MySQL ETL Pipeline with Python
 
 A beginner-friendly ETL workflow that uses Python and MySQL to extract employee data, transform it with SQL, and load the results into separate analysis and backup tables.
@@ -34,7 +33,9 @@ The pipeline connects to a MySQL database with `mysql-connector-python`, creates
 
 ## Screenshots
 
+### ETL workflow
 
+![Python and MySQL ETL workflow](assets/etl-workflow.png)
 
 ### MySQL Workbench results
 
@@ -97,3 +98,4 @@ If your script has a different filename, replace `etl_pipeline.py` with its actu
 ## License
 
 Add a license here if you intend to share or reuse this project publicly.
+
